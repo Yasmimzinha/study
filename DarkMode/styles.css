@@ -1,0 +1,66 @@
+html, body {
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+}
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.dark-theme .container {
+    background: #111;
+}
+
+.content {
+    background: #fff;
+    border: 1px solid #999;
+    border-radius: 8px;
+    max-width: 700px;
+    padding: 40px;
+}
+
+.dark-theme .content {
+    background: #111011;
+    border-color: #000;
+    color: #999;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.darkmode {
+    position: fixed;
+    right: 40px;
+    top: 40px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 5px;
+    border: none;
+    background: #fff;
+}
+
+.dark-theme .darkmode {
+    background: #000;
+}
+
+.dark-theme .darkmode svg {
+    fill: #999;
+}
+

@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#titulo{
+    font-family:monospace;
+    color: cadetblue;
+    
+}
+
+input, textarea, fieldset, button, select{
+    border-radius: 7px;
+}
+
+body {
+    background-color:#728586a2;
+    color: rgb(15, 15, 15);
+    margin-left: 25%;
+    margin-right: 30%;
+    margin-top: 7%;
+    justify-content: center;
+    font-family: sans-serif;
+   
+
+}
+
+
+
+button{
+    margin-left: 240px;
+    background-color: rgb(228, 250, 250);
+    
+    
+}
+

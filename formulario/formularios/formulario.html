@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="formulario.css" media="screen" />
+    <title>Document</title>
+</head>
+<body>
+    <div>
+    <h1 id="titulo">Form</h1><br>
+    </div>
+
+    <form>
+        <fieldset>
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required><br>
+        </div>
+        <div>
+            <label for="age">age</label>
+            <input type="text" name="age" id="age" required>
+        </div>
+        <div>
+            <br>
+            <label>What are ur hobbies?</label>
+            <label>
+                <input type="radio" name="hobbies" value="dance">Dance
+            </label>
+            <label>
+                <input type="radio" name="hobbies" value="sing">Sing
+            </label>
+            <label>
+                <input type="radio" name="hobbies" value="draw">Draw
+            </label>
+            <label>
+                <input type="radio" name="hobbies" value="paint">Paint
+            </label>
+            </div>
+
+            <br>
+            <br>
+
+        <div>
+            <label>Do you like gravity falls?</label>
+            <select id= gravitty falls required>
+                <option>Yes</option>
+                <option>Yes</option>
+            </select>
+        </div>
+
+        <br><br>
+
+        <div>
+            <label><strong>Write about you</strong></label>
+            <textarea row=8 style="width: 30em;" id="about" value="about" required></textarea>
+        </div>
+
+        <br>
+
+        <div>
+            <label>Enter your password to conclude</label>
+            <input type="password" name="password" id="password" minlength="3" maxlength="15" required>
+        </div>
+
+        <br>
+
+        <button type="submit">Conclude</button>
+        
+            
+
+    </fieldset>
+
+    
+    </form>
+</body>
+</html>

@@ -1,0 +1,30 @@
+.tecla {
+width: 4.9%;
+
+height: 245px;
+
+background-color: rgb(253, 250, 250);
+
+border: solid 1px rgb(0, 0, 0);
+
+}
+
+.piano {
+    height: 100%;
+    width:  1110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+       
+    
+}
+
+Body{
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    }
+

@@ -1,0 +1,99 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #121214;
+            color: #fafafa;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+        }
+        .wrap {
+            display: flex;
+            border: 1px solid #18181b;
+            border-radius: 5px;
+            background-color: #29292E;
+            max-width: 960px;
+            padding: 20px;
+            max-height: 90vh;
+            overflow: auto;
+        }
+        #pandasList {
+            list-style: none;
+            width: 300px;
+        }
+        #pandasList li {
+            display: block;
+            border-radius: 5px;
+            background-color: #8257E6;
+            color: #fff;
+            padding: 10px;
+            margin: 0 0 10px 0;
+        }
+        .stickyForm {
+            position: sticky;
+            top: 20px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        input {
+            font-size: 18px;
+            color: #777;
+            padding: 8px;
+            line-height: 1;
+            border-radius: 5px;
+            border: 1px solid #999;
+        }
+        button {
+            background-color: #04D361;
+            color: #222;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            transition: all 400ms ease;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        button:hover {
+            background-color: #39fd92;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="wrap">
+        <section class="stickyForm">
+            <h1>Pandinhas da Yasmim</h1>
+
+            <form id="form" autocomplete="off">
+                <label for="pandaName">Nome do pandinha:</label>
+                <input type="text" name="pandaName" id="pandaName" required>
+                <button type="submit">Salva pra mim!</button>
+            </form>
+        </section>
+
+        <section>
+            <ul id="pandasList">
+                <li>Cadastre algum 🐼</li>
+            </ul>
+        </section>
+    </div>
+
+<script src="scripts.js"></script>
+    
+</body>
+</html>
