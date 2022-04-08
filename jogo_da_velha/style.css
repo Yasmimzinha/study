@@ -1,0 +1,38 @@
+#mostrador {
+  margin: auto;
+  margin-top: 40px;
+  width: 252px;
+  height: 80px;
+}
+
+.espaco {
+  width: 80px;
+  height: 60px;
+  border: 2px solid #121211;
+  float: left;
+  text-align: center;
+  justify-content: center;
+}
+
+.tabuleiro {
+  width: 252px;
+  height: 252px;
+  margin: auto;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.espaco {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.espaco img {
+  max-width: 60%;
+  height: auto;
+}
