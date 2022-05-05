@@ -1,0 +1,29 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  color: green;
+}
+
+a {
+  color: green;
+}
+
+a:hover {
+  color: red;
+  font-size: 25px;
+  background-color: black;
+  background-position: 50cm;
+}
+
+a:active {
+  color: orange;
+}
+
+ul li {
+  list-style-type: disc;
+}
+
+ol li {
+  list-style-type: upper-roman;
+  list-style-position: inside;
+}

@@ -1,0 +1,38 @@
+body {
+  width: 90%;
+  margin: auto;
+  background-color: antiquewhite;
+  font-size: 18px;
+}
+
+h1 {
+  background: rgb(247, 223, 227);
+  width: 100%;
+  padding-left: 41%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkmagenta;
+}
+
+p {
+  margin: 20px 0px 1px 0px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  background: rgb(233, 159, 171);
+  width: 100%;
+  font-size: 32px;
+  border-bottom: solid 2px rgb(197, 32, 197);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.word {
+  color: salmon;
+  font-size: 25px;
+}
+.pdiferente {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
