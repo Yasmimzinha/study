@@ -4,12 +4,15 @@
 }
 
 :root {
-  font-size: 100%; /* 1rem= 10px */
+  font-size: 62.5%; /* 1rem= 10px */
 
   --primary-color: hsl(170, 100%, 26%);
   --headline: hsl(210, 11%, 15%);
   --paragraph: hsl(210, 9%, 31%);
   --brand-beige: hsl(39, 100%, 97%);
+  --brand-light: hsl(148, 23%, 89%);
+
+  --nav-height: 7 2rem;
 }
 
 body {
@@ -18,19 +21,42 @@ body {
 
   text-align: center;
 }
-h4 {
-  font-size: 1rem;
+
+.wrapper {
+  width: 37.5rem;
+  margin-inline: auto;
+}
+
+header {
+  margin-top: calc(4.1rem + var(--nav-height));
+}
+
+header::before {
+  content: '';
+  width: 100vw;
+  height: 108rem;
+  background-color: var(--brand-light);
+  display: block;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+headerh4 {
+  font-size: 3.4rem;
   color: var(--primary-color);
   margin-bottom: 1.6rem;
 }
 
-h1 {
+header h1 {
   font-size: 3.4rem;
   color: var(--headline);
   line-height: 130%;
 }
 
-p {
+header p {
   font-size: 1.8rem;
   line-height: 150%;
   font-weight: 400px;
@@ -38,7 +64,7 @@ p {
   margin-bottom: 3.2rem;
 }
 
-button {
+header button {
   background: var(--primary-color);
   border: none;
   border-radius: 4rem;
@@ -62,21 +88,22 @@ button {
   margin-right: auto;
 }
 
-header {
-  width: 37.5rem;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 4.1rem;
+header img {
+  display: block;
+  margin-inline: auto;
+  object-position: 0 20px;
 }
 
 .stats {
   width: 32.7rem;
-  height: 47rem;
 
+  padding-block: 4rem;
   margin-inline: auto;
 
   background-color: var(--brand-beige);
+  border: 1px solid var(--brand-light);
 
+  border-radius: 0.6rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -88,9 +115,23 @@ header {
   color: var(--headline);
   line-height: 130%;
 
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
 }
-.stats p {
+.stat p {
   margin: 0;
   color: var(--primary-color);
+}
+
+/*====== NAVIGATION =================================*/
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--nav-height);
+
+  position: fixed;
+  top: 0%;
+  left: 50%;
+  transform: translateX(-50%);
 }
