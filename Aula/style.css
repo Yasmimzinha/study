@@ -1,21 +1,18 @@
 body {
   background-color: rgb(104, 103, 103);
+  font-size: 22;
+  font-family: sans-serif;
+  width: 700px;
+  margin: auto;
+  background-image: url(imagens/fb02245828a2797e661d07c2723cbff2.jpg);
+  background-attachment: fixed;
+  background-size: 300px 1000px;
+4
+
 }
 
 h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-variant: small-caps;
-  background-color: azure;
-  border-top: blue solid 5px;
-  border-bottom: pink groove 10px;
-  border-left: inset 25px yellow;
-  border-right: dotted 10px purple;
-  margin-left: 50px;
-  margin-top: 50px;
-  margin-right: 50px;
-  padding: 50px 50px 50px 50px;
-  width: 180px;
-  height: 500px;
+  font-family: Arial, Helvetica;
 }
 
 h2 {
@@ -23,9 +20,11 @@ h2 {
 }
 
 p {
-  text-indent: 20px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  line-height: 1.5;
+}
+
+.img-bela {
+  float: left;
 }
 
 #terceiro {
